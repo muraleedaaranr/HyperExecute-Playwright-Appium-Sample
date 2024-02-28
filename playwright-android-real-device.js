@@ -9,8 +9,6 @@ const {expect} = require("expect");
       "isRealMobile": true,
       "build": "Playwright Android Build",
       "name": "Playwright android test",
-      // "user": 'muraleedaaranr',
-      // "accessKey": '2HxRvbG4tB2d2sO35Tj2EtiOVxwqKS8NVoxryVHkH9c0LenYjp',
       "user": process.env.LT_USERNAME,
       "accessKey": process.env.LT_ACCESS_KEY,
       "network": true,
